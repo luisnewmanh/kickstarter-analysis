@@ -6,13 +6,16 @@ The purpose of this Kickstarter Campaign Analysis is to provide key insights to 
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
 ![Theater_Outcomes_vs_Launch](https://github.com/luisnewmanh/kickstarter-analysis/blob/master/Resources/Outcomes_vs_Goals.png)
+
 It is important to select the correct filters to achieve the desired visualization. In this case theater is the objective of our analysis; hence the importance of having a Parent Category filter. Also, adding year as a filter gives us more flexibility and detail by allowing us to explore the number of campaigns per year.     
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals](https://github.com/luisnewmanh/kickstarter-analysis/blob/master/Resources/Theater_Outcomes_vs_Launch.png)
+
 By using COUNTIFS() it was possible to set the conditions to get the number of campaigns per outcome. After translating the numbers to percentages, it is easier to identify the breaking point; it is a helpful tool to factor risk while designing a campaign. 
 ### Challenges and Difficulties Encountered
 The biggest challenge was to type the conditions for the COUNTIFS(), while not complicated it was time consuming. I missed the option of having a for and counters to tackle the challenge. 
 ## Results
+Overall, it can be said that Louise's Fever campaign has an 54% to be successful given the $10000 budget. Decreasing the budget would not impact the odds for success so the recommendation is to target the campaign to start on May.
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 Based on the date there are two clear takeaways:
@@ -24,8 +27,9 @@ Based on the date there are two clear takeaways:
 
 1. The decision of the goal for a campaign is crucial to its success. There is a tendency in which the highest the goal the highest is the risk for not achieving it; to have the best odds to be successful the goal should be no greater than the range between $15000 to $19999.
 
-Overall, it can be said that Louise's Fever campaign has an 54% to be successful given the $10000 budget. Decreasing the budget would not impact the odds for success so the recommendation is to target the campaign to start on May. 
+ 
 - What are some limitations of this dataset?
+
 The biggest limitation is the sample size, only 26% of the data set is related to plays which is the main interest of our customer.
 - What are some other possible tables and/or graphs that we could create?
 
